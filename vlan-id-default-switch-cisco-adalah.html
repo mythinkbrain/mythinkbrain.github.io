@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vlan Id Default Switch Cisco Adalah - QnA</title>
+    <meta name="description" content="Vlan Id Default Switch Cisco Adalah, Configuring VLANs on 200 and 300 Series Managed Switches, , , , Cisco, 2015-05-27T23:21:25.000000Z, 20, The Default VLAN On A Cisco Switch – LEMP, lemp.io, 580 x 581, png, , 20, vlan-id-default-switch-cisco-adalah, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vlan Id Default Switch Cisco Adalah - QnA" />
+    <meta property="og:description" content="Vlan Id Default Switch Cisco Adalah, Configuring VLANs on 200 and 300 Series Managed Switches, , , , Cisco, 2015-05-27T23:21:25.000000Z, 20, The Default VLAN On A Cisco Switch – LEMP, lemp.io, 580 x 581, png, , 20, vlan-id-default-switch-cisco-adalah, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vlan Id Default Switch Cisco Adalah - QnA" />
+    <meta name="twitter:description" content="Vlan Id Default Switch Cisco Adalah, Configuring VLANs on 200 and 300 Series Managed Switches, , , , Cisco, 2015-05-27T23:21:25.000000Z, 20, The Default VLAN On A Cisco Switch – LEMP, lemp.io, 580 x 581, png, , 20, vlan-id-default-switch-cisco-adalah, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://mythinkbrain.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://mythinkbrain.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://mythinkbrain.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://mythinkbrain.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://mythinkbrain.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://mythinkbrain.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://mythinkbrain.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://mythinkbrain.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Vlan Id Default Switch Cisco Adalah</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">oyin2210</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Vlan+Id+Default+Switch+Cisco+Adalah" alt="Vlan Id Default Switch Cisco Adalah">
+                    </div>
+                    <p></p>
+                    <p>VLAN berapa default SVI (Switch Virtual Interface) dalam sebuah Cisco switch?</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#vlan-berapa-default-svi-switch-virtual-interface-dalam-sebuah-cisco-switch">1.
+                                            VLAN berapa default SVI (Switch Virtual Interface) dalam sebuah Cisco switch?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#vlan-default-pada-konfigurasi-switch-cisco-paket-tracer-ditunjukan-oleh-vlan-dengan-nomor">2.
+                                            Vlan default pada konfigurasi switch cisco paket tracer ditunjukan oleh vlan dengan nomor?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#vlan-yang-sudah-ada-sejak-pertama-kali-switch-dihidupkan-sebelum-di-konfigurasi-semua-port-yang-ada-pada-switch-akan-tergabung-ke-dalam-default-vlan-dan-dapat-terhubung-pada-masing-masing-port-pada">3.
+                                            vlan yang sudah ada sejak pertama kali switch dihidupkan, sebelum di konfigurasi semua port yang ada pada switch akan tergabung ke dalam default VLAN dan dapat terhubung pada masing-masing port. Pada Cisco, default VLAN adalah VLAN1,Pernyataan tersebut merupakan pengertian..
+a. Default VLAN
+b. Data VLAN
+c. Voice BULAN
+d. Management VLAN
+e. Management VLAN</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-default-vlan%e2%80%8b">4.
+                                            fungsi default vlan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-terminologi-vlan-data-vlan-default-native-vlan-vlan-manajemen-vlan-voice">5.
+                                            Jelaskan Terminologi VLAN Data, VLAN Default, Native VLAN, VLAN Manajemen, VLAN Voice</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghubungkan-vlan-yang-sama-dalam-switch-berbeda-disebut">6.
+                                            menghubungkan vlan yang sama dalam switch berbeda disebut....... </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#id-vlan-yang-berisi-fddi-default-adalah%e2%80%8b">7.
+                                            ID VLAN yang berisi fddi-default adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-metode-port-switch-pada-vlan%e2%80%8b">8.
+                                            sebutkan metode port switch pada VLAN​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-urutan-perintah-dalam-switch-cisco-catalyst-untuk-menampilkan-daftar-vlan-yang-terdaftar-pada-switch%e2%80%8b">9.
+                                            Tuliskan urutan perintah dalam switch cisco catalyst untuk menampilkan daftar vlan yang terdaftar pada switch​.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-switch-ingin-dibuat-vlan-id-tulislah-perintah-konfigurasinya%e2%80%8b">10.
+                                            Sebuah switch ingin dibuat vlan id. tulislah perintah konfigurasinya!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-kamu-ketahui-tentang-konsep-jaringan-vlan-dan-tuliskan-taq-perintah-jika-menggunkan-2-vlan-menggunka-cisco-pacet-tracer%e2%80%8b">11.
+                                            apa yang kamu ketahui tentang  konsep jaringan VLAN dan tuliskan taq perintah jika menggunkan 2 VLAN menggunka  cisco pacet tracer?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#switchenable-switchconfigure-terminal-switchvlan-database-switchvlanvlan-10-name-lab-guruswitchvlanvlan-20-name-lab_siswa-switchvlanexithasil-konfigurasi-yang-diperoleh-adalah">12.
+                                            switch&gt;enable 
+switch#configure terminal 
+switch#vlan database 
+switch(vlan)#vlan 10 name lab guru
+switch(vlan)#vlan 20 name lab_siswa 
+switch(vlan)#exit
+hasil konfigurasi yang diperoleh adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-vlan-dan-bagaimana-penerapannya-dalam-cisco-packet-treser">13.
+                                            Apa itu vlan? Dan bagaimana penerapannya dalam cisco packet treser?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kesimpulan-tentang-vlan-cisco">14.
+                                            kesimpulan tentang vlan cisco</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-nama-jenis-vlan-yang-merupakan-bawaan-vlan-router-cisco-dan-jelaskan%e2%80%8b">15.
+                                            apa nama jenis VLAN yang merupakan bawaan VLAN router cisco? dan jelaskan!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yanga-anda-ketahui-default-routers-dalam-router-cisco%e2%80%8b">16.
+                                            apa yanga anda ketahui default routers dalam router cisco​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#id-vlan-berisi-fddi-default-adalah%e2%80%8b">17.
+                                            ID vlan berisi fddi default adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-jaringan-vlan-menciptakan-melalui-konfigurasi-pada-switch-atau-pada-server-ekternal-dan-direnferensi-oleh-switch-sebuah-vlan-di-katagori-berdasarkan-proses-konfigurasi-berikut-adalah-ciri-ci">18.
+                                            sebuah jaringan vlan
+ menciptakan melalui konfigurasi pada switch atau pada server ekternal dan direnferensi oleh switch. sebuah vlan di katagori berdasarkan proses konfigurasi. berikut adalah ciri ciri protocol based vlan adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#terdapat-dua-vlan-yang-terhubung-pada-sebuah-switch-bagaimana-cara-menghubungkan-kedua-vlan-tersebut-agar-bisa-saling-berkomunikasi-antar-vlan">19.
+                                            Terdapat dua Vlan yang terhubung pada sebuah switch, bagaimana cara menghubungkan kedua vlan tersebut agar bisa saling berkomunikasi antar vlan.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jenis-jenis-vlan-pada-switch-kecuali%e2%80%a6">20.
+                                            Jenis-jenis VLAN pada switch, Kecuali…</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-bantu-donkkk-pertanyaan-ini-besok-selasa-mao-di-kumpulin-makasih-yang-udah-bantu-1-bagaimana-langkah-konfigurasi-dasar-vlan-pada-switch-cisco-catalyst-%e2%80%8b">21.
+                                            TOLONG BANTU DONKKK PERTANYAAN INI !! BESOK SELASA MAO DI KUMPULIN .MAKASIH YANG UDAH BANTU 1.BAGAIMANA LANGKAH KONFIGURASI DASAR VLAN PADA SWITCH CISCO CATALYST .​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-mengevaluasi-vlan-pada-jaringan-cisco-packet-tracer">22.
+                                            jelaskan mengevaluasi VLAN pada jaringan cisco packet tracer?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-perhatikan-perintah-konfigurasi-berikutswitchenableswitchconfigure-terminalswitchvlan-databaseswitchvlanvlan-10-name-lab_guruswitchvlanvlan-20-name-lab_siswaswitchvlanexithasil-konf">23.
+                                            1. Perhatikan perintah konfigurasi berikut:switch&gt;enableswitch#configure terminalswitch#vlan databaseswitch(vlan)#vlan 10 name Lab_Guruswitch(vlan)#vlan 20 name Lab_Siswaswitch(vlan)#exitHasil konfigurasi yang diperoleh adalah…..A. Mengaktifkan mode trunk pada lab_guru dan lab_siswaB. Pengelompokan port berdasarkan departemen lab_Guru dan lab_siswa C. Mengaktifkan client mode pada lab_Guru dan lab_siswaD. Membuat kelompok VLAN baru dengan nama lab_Guru dan lab_siswaE. Memberikan hak akses pada lab_Guru dan lab_siswa2. Perintah konfigurasi tiap port fastethernet pada vlan 30 agar dapat terhubung ke VLAN lainnya adalah..... A. switchport access vlan 30B. vlan 30 switchport accessC. switchport 30 vlan accessD. switchport vlan 30 accessE. switchport access 30tolong bantu jawabTerimakasih​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#vlan-id-yang-tidak-bisa-di-hapus-adalah%e2%80%8b">24.
+                                            VLAN ID yang tidak bisa di hapus adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#switch-config-no-vlan-7-digunakan-untuk-vlan-7">25.
+                                            switch (config) #no vlan "7" 
+digunakan untuk.......VLAN 7</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-arti-dari-perintah-name-vlan-name-pada-pembuatan-vlan-di-cisco">26.
+                                            Apa arti dari perintah "name vLan name" pada pembuatan vlan di cisco</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menghubungkan-vlan-yang-sama-dalam-switch-berbeda-disebut">27.
+                                            Menghubungkan vlan yang sama dalam switch berbeda disebut.....</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#10-fungsi-allowed-vlan-adalah-a-menghubungkan-vlan-di-2-switch-berbeda-b-menghubungkan-vlan-di-dalam-1-switch-c-membatasi-hak-akses-vlan-di-2-switch-yang-sudah-di-trunking-d-memberikan-kenya">28.
+                                            10. Fungsi allowed VLAN adalah .... a. menghubungkan VLAN di 2 switch berbeda b. menghubungkan VLAN di dalam 1 switch c. membatasi hak akses VLAN di 2 switch yang sudah di-trunking d. memberikan kenyamanan bagi user e. mengunci fitur switching​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-seting-vlan-menggunakan-cisco-package-tracer">29.
+                                            Jelaskan cara seting vlan menggunakan cisco package tracer</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kesimpulan-dari-praktikum-tentang-vlan-menggunakan-cisco-paket-treacer">30.
+                                            kesimpulan dari praktikum tentang VLAN menggunakan cisco paket treacer</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="vlan-berapa-default-svi-switch-virtual-interface-dalam-sebuah-cisco-switch">
+                            1. VLAN berapa default SVI (Switch Virtual Interface) dalam sebuah Cisco switch?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>SVI perlu dikonfigurasi untuk membuat route antar VLAN atau untuk memberikan koneksi IP dengan host. Secara default, SVI dibuat untuk VLAN 1 sehingga bisa dikelola secara remote. Sebuah VLAN Native ditandai dengan sebuah port trunk 802.1Q.</p><p></p><p></p><p>semoga membantu dan jadiin jawaban terbaik y</p><p><strong>Jawaban:</strong></p><p>VLAN 1</p><p><strong>Penjelasan:</strong></p><p>SVI default dibuat pada switch layer 3 untuk VLAN 1 (Default native VLAN ), yang dimaksudkan untuk manajemen switch jarak jauh. Ini menyiratkan bahwa alamat IP dapat ditetapkan ke antarmuka ini untuk tujuan manajemen.</p><p></p><p>Contoh Configurasi</p><p>SWITCH(config)#vlan 10   &lt;- Pertama, buat VLAN 10
+</p><p>SWITCH(config)#interface vlan 10 &lt;- Selanjutnya buat SVI VLAN 10
+</p><p>SWITCH(config-if)#description WORKSTATIONS
+</p><p>SWITCH(config-if)#ip address 10.0.0.1 255.255.255.0   &lt;- Masukkan IP ke SVI</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="vlan-default-pada-konfigurasi-switch-cisco-paket-tracer-ditunjukan-oleh-vlan-dengan-nomor">
+                            2. Vlan default pada konfigurasi switch cisco paket tracer ditunjukan oleh vlan dengan nomor?</h2><br />
+                        <p>VLAN Default pada konfigurasi switch cisco paket tracer ditunjukkan oleh <strong>VLAN Nomor 1.</strong></p><p><strong>Pembahasan</strong></p>VLAN adalah kelompok device dalam sebuah LAN yang dikonfigurasi (menggunakan sofware manajemen) sehingga mereka dapat saling berkomunikasi dengan jariasan sesama walaupun secara fisikal berada pada segmen LAN yang berbeda.Beberapa keuntungan penggunaan VLAN antara lain :Keamanan data dari setiap divisi dapat dibuat sendiri, karena segmennya bisa dipisah secara logika.Penghematan dari penggunaan bandwidth yang ada Pembagian jaringan layer dua kedalam beberapa kelompok broadcast domain yang lebih kecil.Memudahkan manajemen jaringan karena pengguna yang membutuhkan sumber daya yang dibutuhkan berbagi dalam segmen yang sama.Adapun beberapa terminologi di dalam VLAN diantaranya yaitu :<strong>VLAN Data,</strong> yaitu VLAN yang dikonfigurasikan hanya untuk membawa data-data yang digunakan oleh user.<strong>VLAN Default, </strong>yaitu VLAN yang digunakan untuk Switch Cisco adalah VLAN 1 yang tidak dapat diberi nama dan tidak dapat dihapus.<strong>Native VLAN,</strong> yaitu VLAN yang dikeluarkan untuk port trunking 802.1 Q.<strong>VLAN Manajemen </strong>adalah VLAN yang dikonfigurasi untuk memanajemen switch.<strong>VLAN Voice, </strong>yaitu VLAN yang digunakan untuk komunikasi data suara.<p><strong>Pelajari lebih lanjut</strong></p>Materi tentang teknik pemeriksaan permasalahan pada VLAN : brainly.co.id/tugas/17532221<p><strong>Detil Jawaban</strong></p><p>Kelas : IX (SMP)</p><p>Mapel : TIK</p><p>Bab : Dasar-dasar sistem jaringan internet dan intranet</p><p>Kode : 9.11.2</p><p>Kata Kunci : VLAN</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="vlan-yang-sudah-ada-sejak-pertama-kali-switch-dihidupkan-sebelum-di-konfigurasi-semua-port-yang-ada-pada-switch-akan-tergabung-ke-dalam-default-vlan-dan-dapat-terhubung-pada-masing-masing-port-pada">
+                            3. vlan yang sudah ada sejak pertama kali switch dihidupkan, sebelum di konfigurasi semua port yang ada pada switch akan tergabung ke dalam default VLAN dan dapat terhubung pada masing-masing port. Pada Cisco, default VLAN adalah VLAN1,Pernyataan tersebut merupakan pengertian..
+a. Default VLAN
+b. Data VLAN
+c. Voice BULAN
+d. Management VLAN
+e. Management VLAN</h2><br />
+                        <p>Jawaban:Data vlan</p><p></p><p>Penjelasan:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="fungsi-default-vlan%e2%80%8b">
+                            4. fungsi default vlan​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Fungsi VLAN</p><p>  VLAN memberikan sebuah metode untuk membagi satu fisik network ke banyak broadcast domain. Broadcast domain ini biasanya sama dengan batas IP subnet, tiap subnet mempunyai satu VLAN. VLAN membolehkan banyak virtual LAN berdampingan dalam sebuah fisik LAN ( switch ). Jadi, semisal ada dua mesin yang terhubung dalam sebuah switch, keduanya tidak dapat mengirim ethernet frame ke mesin lain meski dalam satu kabel yang sama.</p><p></p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><p></p><p><strong>Jawaban:</strong></p><p>fungsinya untuk memberikan sebuah metode untuk membagi satu fisik network ke banyak broatcast domain Vlan membolehkan banyak virtual LAN berdampingan dalam sebuah switch</p><p>MAAF KALO SALAH</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-terminologi-vlan-data-vlan-default-native-vlan-vlan-manajemen-vlan-voice">
+                            5. Jelaskan Terminologi VLAN Data, VLAN Default, Native VLAN, VLAN Manajemen, VLAN Voice</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jelaskan Terminologi VLAN Data, VLAN Default, Native VLAN, VLAN Manajemen</p><p>Jenis VLAN berdasarkan pemberian membershipnya dibedakan menjadi beberapa jenis antara lain:</p><p>IP Subnet Address based VLAN</p><p>Authentication base VLAN</p><p>Protocol based VLAN</p><p>MAC based VLAN</p><p>Port based VLAN</p><p>Pembahasan</p><p>Virtual Local Area Network atau VLAN, merupakan suatu bentuk jaringan yang disusun  teratur secara logis dalam suatu Local Area Network sehingga pengguna didalamnya dapat berinteraksi sesuai kelompok yang dibentuk.  VLAN sendiri memiliki beberapa jenis menurut pemberian membershipnya sebagai berikut:</p><p>IP Subnet Address based VLAN</p><p>VLAN jenis ini memiliki kemampuan untuk bekerja pada layer dua dan tiga. Oleh karena itu, dasar dari VLAN jenis ini dapat menggunakan IP subnet address yang ada untuk pengaturan pemberian membershipnya.</p><p>Authentication based VLAN</p><p>VLAN jenis ini dapat diakses oleh perangkat secara otomatis jika berada didalamnya.  Perangkat yang berada didalam VLAN ini akan dikenali setelah proses authentication terhadap user dan/atau perangkat berhasil. Protokol yang digunakan dalam proses ini adalah 802.1X.</p><p>Protocol based VLAN</p><p>Sesuai dengan nama jenis pemberian membershipnya, VLAN ini berbasis protokol jaringan.  Protokol jaringan ini dapat dijadikan dasar VLAN dikarenakan pada OSI Layer dikerjakan oleh VLAN.</p><p>MAC based VLAN</p><p>VLAN jenis ini memberikan membership menurut MAC address yang dimiliki setiap perangkat didalam jaringan. MAC address yang dimiliki perangkat yang berada di dalam jaringan dan kelompoknya dapat diketahu pada tiap swicth</p><p>Port based VLAN</p><p>Pemberian membership pada jenis ini dilakukan berdasarkan konfigurasi port yang selanjutkan dimasukkan ke dalam suatu kelompok VLAN.  Port hanya dapat dihubungkan dengan satu VLAN, dan jika menggunakan port trunk, maka dapat dihubungkan dengan lebih dari satu VLAN.</p><p><strong>Penjelasan:</strong></p><p>Jenis VLAN berdasarkan pemberian membershipnya dibedakan menjadi beberapa jenis antara lain:</p><p>IP Subnet Address based VLAN</p><p>Authentication base VLAN</p><p>Protocol based VLAN</p><p>MAC based VLAN</p><p>Port based VLAN</p><p>Pembahasan</p><p>Virtual Local Area Network atau VLAN, merupakan suatu bentuk jaringan yang disusun  teratur secara logis dalam suatu Local Area Network sehingga pengguna didalamnya dapat berinteraksi sesuai kelompok yang dibentuk.  VLAN sendiri memiliki beberapa jenis menurut pemberian membershipnya sebagai berikut:</p><p>IP Subnet Address based VLAN</p><p>VLAN jenis ini memiliki kemampuan untuk bekerja pada layer dua dan tiga. Oleh karena itu, dasar dari VLAN jenis ini dapat menggunakan IP subnet address yang ada untuk pengaturan pemberian membershipnya.</p><p>Authentication based VLAN</p><p>VLAN jenis ini dapat diakses oleh perangkat secara otomatis jika berada didalamnya.  Perangkat yang berada didalam VLAN ini akan dikenali setelah proses authentication terhadap user dan/atau perangkat berhasil. Protokol yang digunakan dalam proses ini adalah 802.1X.</p><p>Protocol based VLAN</p><p>Sesuai dengan nama jenis pemberian membershipnya, VLAN ini berbasis protokol jaringan.  Protokol jaringan ini dapat dijadikan dasar VLAN dikarenakan pada OSI Layer dikerjakan oleh VLAN.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="menghubungkan-vlan-yang-sama-dalam-switch-berbeda-disebut">
+                            6. menghubungkan vlan yang sama dalam switch berbeda disebut....... </h2><br />
+                        Disebut TRUNKING VLAN.Maaf kalau salah :)<br />
+                                            <h2 class="ez-toc-section" id="id-vlan-yang-berisi-fddi-default-adalah%e2%80%8b">
+                            7. ID VLAN yang berisi fddi-default adalah​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>VLAN (Virtual Local Area Network) adalah sebuah cara untuk membagi jaringan menjadi beberapa bagian yang terpisah secara logis, sehingga setiap bagian tersebut dapat dianggap sebagai jaringan terpisah. FDDI (Fiber Distributed Data Interface) adalah sebuah standar untuk jaringan lokal optik serat yang digunakan untuk menghubungkan komputer dan perangkat jaringan lainnya.</p><p></p><p>ID VLAN yang berisi fddi-default adalah ID VLAN yang dikonfigurasi untuk menggunakan standar FDDI untuk koneksi ke jaringan. ID VLAN ini biasanya digunakan untuk menghubungkan perangkat jaringan yang menggunakan standar FDDI, seperti switch atau router, ke jaringan lokal. ID VLAN ini biasanya ditentukan oleh administrator jaringan dan dapat berbeda tergantung pada konfigurasi jaringan yang digunakan.</p><p><strong>Jawaban:</strong></p><p>ID VLAN yang berisi fddi-default adalah <strong>ID VLAN yang dikonfigurasi untuk mengunakan standar FDDI untuk koneksi ke jaringan.</strong></p><p></p><strong>Penjelasan</strong><strong> </strong><strong>:</strong><p>ID VLAN yang berisi fddi-default adalah ID VLAN yang dikonfigurasi untuk mengunakan standar FDDI untuk koneksi ke jaringan.</p><p></p><p>FDDI singkatan dari Fiber Distributed Data Interface.</p><p></p><p>VLAN singkatan dari </p><p>( Virtual Local Area Network ) </p><p></p><p>VLAN adalah sebuah Cara untuk Membagi jaringan menjAdi Beberapa Bagian yang terpisah secara logis, sehingga setiap bagian Tersebut dapat dianggap sebagai jaringan Terpisah.</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-metode-port-switch-pada-vlan%e2%80%8b">
+                            8. sebutkan metode port switch pada VLAN​</h2><br />
+                        <p>Pada <strong>VLAN </strong>terdapat beberapa <strong>metode Port Switch</strong>, berikut di antaranya:</p>Statis VLANDinamis VLANVoice VLANPembahasan<p><strong>Port Switch </strong>ialah komponen jaringan komputer yang yang berfungsi untuk menghubungkan beberapa perangkat komputer agar dapat melakukan pertukaran paket baik itu menerima, merespon, maupun meneruskan data pada perangkat lainnya.</p><p>Untuk lebih memahami mengenai beberapa <strong>metode Port Switch yang terdapat pada VLAN</strong>, berikut penjelasannya:</p><strong>Statis VLAN, </strong>yakni port switch yang dikonfigurasikan secara manual pada setiap portnya.<strong>Dinamis VLAN,</strong> yakni server yang memberikan konfigurasi secara dinamis sesuai dengan MAC address yang tercatat pada database switch. Keanggotaan pada port VLAN dikonfigurasikan dengan menggunakan sebuah server khusus yang bernama VLAN Membership Policy Server atau disingkat VMPS.<strong>Voice VLAN, </strong>yakni port yang dikonfigurasikan menjadi sebuah mode voice. Port tersebut dapat digunakan dengan menggunakan IP phone, namun didahului dengan mengonfigurasikan VLAN Voice terlebih dahulu baru VLAN data. Hal tersebut guna memastikan bahwa traffic untuk port voice merupakan traffic voice saja.Pelajari Lebih LanjutMateri tentang fungsi switch pada jaringan lokal, https://brainly.co.id/tugas/21934825Materi tentang jenis-jenis VLAN, https://brainly.co.id/tugas/16652748Materi tentang prosedur dan pemeriksaan permasalahan pada VLAN, https://brainly.co.id/tugas/17532221<p>• • • • • • • • • • • • • • • • • • • • • • • • • • •</p>Detail Jawaban<p>Kelas: VII SMP</p><p>Mapel: TIK </p><p>Bab: Bab 7 - Perangkat Keras Komputer</p><p>Kode: 7.11.7</p><p></p><p><strong>#AyoBelajar</strong></p><p><strong>#SPJ2</strong></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-urutan-perintah-dalam-switch-cisco-catalyst-untuk-menampilkan-daftar-vlan-yang-terdaftar-pada-switch%e2%80%8b">
+                            9. Tuliskan urutan perintah dalam switch cisco catalyst untuk menampilkan daftar vlan yang terdaftar pada switch​.</h2><br />
+                        <p>Urutan perintah dalam <strong>switch cisco catalyst</strong> untuk menampilkan daftar vlan yang terdaftar pada switch​ adalah menampilkan dengan show privileged mode. Cara dalam <strong>show privileged mode</strong> adalah dengan mengetikkan perintah <strong>show vlan brief</strong>.</p><p><strong>Pembahasan</strong></p><p><strong>Switch</strong> adalah perangkat<strong> jaringan komputer</strong> yang berfungsi sebagai plug atau konektor. Dilihat dari fungsinya, switch mirip dengan HUB, tetapi semua data yang dikirim oleh HUB atau dikirim diterima oleh semua perangkat yang terhubung ke HUB. Untuk mengkonfigurasi sakelar, Anda memerlukan komputer untuk bertindak sebagai sakelar jarak jauh, karena sakelar tidak memiliki monitor atau tombol untuk konfigurasi. Untuk mengkonfigurasi sakelar, kabel yang digunakan untuk menghubungkan komputer ke sakelar adalah kabel konsol. Dari mode pengguna ke mode tingkat berikutnya adalah mode istimewa. Untuk masuk ke mode istimewa, masukkan perintah aktifkan Tekan tombol Enter. Anda memerlukan komputer. Jauh dari sakelar ini. Karena remote switch adalah komputer, Anda perlu mengetahui beberapa perintah  untuk mengkonfigurasinya.</p><p></p>Pelajari lebih lanjut<p>Pelajari lebih lanjut materi tentang switch: https://brainly.co.id/tugas/11495206</p><p></p><p><strong>#BelajarBersamaBrainly #SPJ4</strong></p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-switch-ingin-dibuat-vlan-id-tulislah-perintah-konfigurasinya%e2%80%8b">
+                            10. Sebuah switch ingin dibuat vlan id. tulislah perintah konfigurasinya!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>apa jawabannya ini...................</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-kamu-ketahui-tentang-konsep-jaringan-vlan-dan-tuliskan-taq-perintah-jika-menggunkan-2-vlan-menggunka-cisco-pacet-tracer%e2%80%8b">
+                            11. apa yang kamu ketahui tentang  konsep jaringan VLAN dan tuliskan taq perintah jika menggunkan 2 VLAN menggunka  cisco pacet tracer?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>VLAN untuk membedakan jaringan dalam satu device cisco. contoh 1 port interface dipakai untuk Komputer dan Cisco phone</p><p></p><p>en</p><p>conf t</p><p>vlan 10</p><p>vlan 20</p><p>vlan 30</p><p>exit</p><p>int f0/1</p><p>switchport access vlan 10</p><p>switchport voice vlan 20</p><p>exit</p><p>int f0/2</p><p>switchport access vlan30</p><p></p><p><strong>Penjelasan:</strong></p><p>port 1 &amp; 2 tidak bisa komunikasi</p><p>port 1 memakai 2 vlan</p><br />
+                                            <h2 class="ez-toc-section" id="switchenable-switchconfigure-terminal-switchvlan-database-switchvlanvlan-10-name-lab-guruswitchvlanvlan-20-name-lab_siswa-switchvlanexithasil-konfigurasi-yang-diperoleh-adalah">
+                            12. switch&gt;enable 
+switch#configure terminal 
+switch#vlan database 
+switch(vlan)#vlan 10 name lab guru
+switch(vlan)#vlan 20 name lab_siswa 
+switch(vlan)#exit
+hasil konfigurasi yang diperoleh adalah</h2><br />
+                        terbentuk 2 buah vlan<br />vlan pertama dinyatakan sebagai vlan10 dan vlan diberi nama lab_guru<br />vlan kedua dinyatakan sebagai vlan20 dan vlan diberi nama lab_siswa<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-vlan-dan-bagaimana-penerapannya-dalam-cisco-packet-treser">
+                            13. Apa itu vlan? Dan bagaimana penerapannya dalam cisco packet treser?</h2><br />
+                        Virtual LAN atau disingkat VLAN merupakan sekelompok perangkat pada satu LAN atau lebih yang dikonfigurasikan (menggunakan perangkat lunak pengelolaan) sehingga dapat berkomunikasi seperti halnya bila perangkat tersebut terhubung ke jalur yang sama, padahal sebenarnya perangkat tersebut berada pada sejumlah segmen LAN yang berbeda. Vlan dibuat dengan menggunakan jaringan pihak ke tiga. VLAN merupakan sebuah bagian kecil jaringan IP yang terpisah secara logik. VLAN memungkinkan beberapa jaringan IP dan jaringan-jaringan kecil (subnet) berada dalam jaringan switched switched yang sama. Agar computer bisa berkomunikasi pada VLAN yang sama, setiap computer harus memiliki sebuah alamat IP dan Subnet Mask yang sesuai dengan VLAN tersebut. Switch harus dikonfigurasi dengan VLAN dan setiap port dalam VLAN harus didaftarkan ke VLAN. Sebuah port switch yang telah dikonfigurasi dengan sebuah VLAN tunggal disebut sebagai access port.Sebuah VLAN memungkinkan seorang Administrator untuk menciptakan sekelompok peralatan yang secara logic dihubungkan satu sama lain. Dengan VLAN, kita dapat membagi jaringan switch secara logik berdasarkan fungsi, departemen atau project team .<br />
+                                            <h2 class="ez-toc-section" id="kesimpulan-tentang-vlan-cisco">
+                            14. kesimpulan tentang vlan cisco</h2><br />
+                        <p>VLAN atau Virtual Local Area Network <strong>adalah </strong>sebuah perangkat lunak dalam jaringan yang memungkinkan pengguna untuk saling terhubung satu sama lain dengan pengguna lain tanpa harus menggunakan koneksi LAN konvensional dan berada di satu tempat berdekatan. </p><p></p>Pembahasan<p>Pada kesempatan ini, soal meminta kita untuk menyajikan simpulan tentang VLAN Cisco. Berikut kakak akan mencoba menjawab pertanyaan tersebut. </p><p></p><p><strong>VLAN Cisco adalah sebuah perangkat lunak dalam jaringan yang dikeluarkan oleh perusahaan Cisco. Perangkat lunak ini berfungsi untuk menghubungkan satu pengguna dengan pengguna lain meski tidak berada dalam satu wilayah yang berdekatan serta mengendalikan dan mengawasi koneksi tersebut, layaknya sebuah jaringan LAN konvensional.</strong></p><p><strong></strong></p>Pelajari lebih lanjut<p>Pada materi ini, kamu dapat belajar tentang VLAN:</p><p>https://brainly.co.id/tugas/21602139</p><p></p>Detil jawaban<p><strong>Kelas: SMA</strong></p><p><strong>Mata pelajaran: TI</strong></p><p><strong>Bab: -</strong></p><p><strong>Kode kategori: -</strong></p><p><strong></strong></p><p><strong>Kata kunci: VLAN Cisco</strong></p><br />
+                                            <h2 class="ez-toc-section" id="apa-nama-jenis-vlan-yang-merupakan-bawaan-vlan-router-cisco-dan-jelaskan%e2%80%8b">
+                            15. apa nama jenis VLAN yang merupakan bawaan VLAN router cisco? dan jelaskan!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Virtual LANs (VLANs) Virtual Local Area Network</p><p><strong>Penjelasan:</strong></p><p>VLAN adalah metode membuat jaringan yang diatur secara logis satu per satu. VLAN sendiri berada di jaringan area lokal (LAN), sehingga satu atau lebih VLAN dapat ada di jaringan (LAN). Jadi kita dapat menyimpulkan bahwa kita dapat membentuk satu atau lebih jaringan (jaringan dalam suatu jaringan) dalam suatu jaringan.
+</p><p>Konfigurasi VLAN itu sendiri dilakukan melalui perangkat lunak (software) sehingga komputer berada di jaringan VLAN yang sama ketika sedang bergerak.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yanga-anda-ketahui-default-routers-dalam-router-cisco%e2%80%8b">
+                            16. apa yanga anda ketahui default routers dalam router cisco​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Default routers/routing merupakan jenis routers yang menggunakan single router. Router yang digunakan akan mengirim semua paket ke single router. Rute ini dipilih pada proses routing saat tidak ada rute atau jalur lain yang tersedia untuk tujuan dari sebuah alamat IP</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="id-vlan-berisi-fddi-default-adalah%e2%80%8b">
+                            17. ID vlan berisi fddi default adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>ID VLAN berisi FDDI (Fiber Distributed Data Interface) default adalah 1. VLAN ID 1 pada FDDI digunakan sebagai VLAN default atau VLAN tanpa tagging. Ini berarti bahwa semua frame data yang tidak ditandai secara eksplisit dengan VLAN ID akan dianggap sebagai bagian dari VLAN default ini. VLAN default digunakan untuk mengirim data antara perangkat yang tidak mendukung tagging VLAN atau tidak dikonfigurasi untuk menggunakan VLAN yang ditentukan secara khusus.</p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-jaringan-vlan-menciptakan-melalui-konfigurasi-pada-switch-atau-pada-server-ekternal-dan-direnferensi-oleh-switch-sebuah-vlan-di-katagori-berdasarkan-proses-konfigurasi-berikut-adalah-ciri-ci">
+                            18. sebuah jaringan vlan
+ menciptakan melalui konfigurasi pada switch atau pada server ekternal dan direnferensi oleh switch. sebuah vlan di katagori berdasarkan proses konfigurasi. berikut adalah ciri ciri protocol based vlan adalah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A vlan web</p><p>made from configuration by switch or external server and referenced by switch. A vlan categoryed based on configuration progress. the next is characteristic of protocol based vlan </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="terdapat-dua-vlan-yang-terhubung-pada-sebuah-switch-bagaimana-cara-menghubungkan-kedua-vlan-tersebut-agar-bisa-saling-berkomunikasi-antar-vlan">
+                            19. Terdapat dua Vlan yang terhubung pada sebuah switch, bagaimana cara menghubungkan kedua vlan tersebut agar bisa saling berkomunikasi antar vlan.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>telepon kah atau apa gitu yang ku ketahiu hanya hp</p><br />
+                                            <h2 class="ez-toc-section" id="jenis-jenis-vlan-pada-switch-kecuali%e2%80%a6">
+                            20. Jenis-jenis VLAN pada switch, Kecuali…</h2><br />
+                        <p><strong>Default VLAN</strong> adalah vlan yang sudah ada sejak pertama kali switch dihidupkan, sebelum di konfigurasi semua port yang ada pada switch akan tergabung ke dalam default VLAN dan dapat terhubung pada masing - masing port. pada cisco, default vlan adalah VLAN 1.</p><br /><p><strong>Data VLAN</strong> adalah vlan yang hanya mengatur trafik data pada VLAN</p><br /><p><strong>Native VLAN</strong> adalah vlan yang dikembalikan ke suatu port apabila tidak dalam bentuk trunking dan untagged</p><br /><p><strong>Voice VLAN</strong> adalah vlan yang mendukung VoIP dan di khususkan untuk komunikasi data suara pada VLAN</p><br /><p><strong>Management VLAN</strong> adalah VLAN yang di konfigurasi untuk management switch</p><br /><p>kalo kecuali tinggal liat yang ga ada</p><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="tolong-bantu-donkkk-pertanyaan-ini-besok-selasa-mao-di-kumpulin-makasih-yang-udah-bantu-1-bagaimana-langkah-konfigurasi-dasar-vlan-pada-switch-cisco-catalyst-%e2%80%8b">
+                            21. TOLONG BANTU DONKKK PERTANYAAN INI !! BESOK SELASA MAO DI KUMPULIN .MAKASIH YANG UDAH BANTU 1.BAGAIMANA LANGKAH KONFIGURASI DASAR VLAN PADA SWITCH CISCO CATALYST .​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>LAN menggunakan VLAN-ID untuk mengidentifikasi suatu port-interface berada di VLAN mana dan juga untuk membedakan Brodcast domain yang ada pada Switch. Terdapat beberapa VLAN-ID yang dapat digunakan dan juga tidak, yaitu :
+</p><p>VLAN 1 : VLAN default pada Switch Cisco jika belum dikonfigurasi VLAN, tidak dapat dimodifikasi, dan dihapus.
+</p><p>VLAN 1 - 1005 : VLAN yang dapat digunakan untuk dibuat, dihapus, atau dimodifikasi.
+</p><p>Ketika frame memasuki suatu port interface dengan VLAN ID tertentu, maka frame tersebut akan ditandai dengan VLAN ID tersebut, dan frame itu hanya akan dikirimkan pada port interface yang memiliki VLAN ID sama dengan VLAN ID pada frame tersebut, dan juga pada jalur Trunk jika masuk dalam daftar. Untuk mengirimkan paket antar VLAN yang berbeda, diperlukan sebuah Router untuk melakukannya.
+</p><p>
+</p><p>Untuk melakukan konfigurasi VLAN pada Switch Cisco Catalyst, berikut ini adalah sintaks konfigurasinya :
+</p><p>Buat beberapa VLAN yang nantinya akan digunakan.
+</p><p>Switch(config)#vlan [vlan-id]
+</p><p>Dan jika perlu berikan nama pada tiap VLAN -nya.
+</p><p>Switch(config-vlan)#name [nama]
+</p><p>Dan kemudian masuk pada sebuah Interface, lalu assign vlan pada Inteface tersebut.
+</p><p>Switch(config)#interface [slot/number]
+</p><p>Switch(config-if)#switchport mode access
+</p><p>Switch(config-if)#switchport access vlan [vlan-id]
+</p><p>Dan kemudian sekarang kita akan mencoba melakukan praktek VLAN pada topologi ini.
+</p><p>
+</p><p>Pertama kita buat VLAN 10 dan 20 pada Switch, dan berikan nama jika diperlukan.
+</p><p>Switch(config)#vlan 10
+</p><p>Switch(config-vlan)#name sepuluh
+</p><p>Switch(config-vlan)#exi
+</p><p>Switch(config)#vlan 20
+</p><p>Switch(config-vlan)#name duapuluh
+</p><p>Switch(config-vlan)#exi
+</p><p>Kemudian assign VLAN tersebut pada interface yang diinginkan.
+</p><p>Switch(config)#int ra e0/0-1
+</p><p>Switch(config-if-range)#sw mo acc
+</p><p>Switch(config-if-range)#sw acc vl 10
+</p><p>Switch(config-if-range)#exi
+</p><p>Switch(config)#int ra e0/2-3
+</p><p>Switch(config-if-range)#sw mo acc
+</p><p>Switch(config-if-range)#sw acc vl 20
+</p><p>Switch(config-if-range)#exi
+</p><p>Untuk memastikan VLAN yang telah kita buat, kita dapat melihat VLAN Database pada Switch dengan perintah show vlan brief.
+</p><p>Switch#sh vlan brief  </p><p>
+</p><p>VLAN Name                             Status    Ports
+</p><p>---- -------------------------------- --------- -------------------------------
+</p><p>1    default                          active    Et1/0, Et1/1, Et1/2, Et1/3
+</p><p>                                                Et2/0, Et2/1, Et2/2, Et2/3
+</p><p>                                                Et3/0, Et3/1, Et3/2, Et3/3
+</p><p>10   sepuluh                          active    Et0/0, Et0/1
+</p><p>20   duapuluh                         active    Et0/2, Et0/3
+</p><p>1002 fddi-default                     act/unsup  </p><p>1003 token-ring-default               act/unsup  </p><p>1004 fddinet-default                  act/unsup  </p><p>1005 trnet-default                    act/unsup  </p><p>Kemudian kita berikan IP Address pada masing-masing VPCS. Untuk VLAN 10 (10.10.10.0/24) dan VLAN 20 (20.20.20.0/24).
+</p><p>VLAN 10
+</p><p>PC1&gt; ip 10.10.10.2/24
+</p><p>Checking for duplicate address...
+</p><p>PC1 : 10.10.10.2 255.255.255.0
+</p><p>
+</p><p>PC2&gt; ip 10.10.10.3/24
+</p><p>Checking for duplicate address...
+</p><p>PC1 : 10.10.10.3 255.255.255.0
+</p><p>
+</p><p>VLAN 20
+</p><p>PC3&gt; ip 20.20.20.3/24
+</p><p>Checking for duplicate address...
+</p><p>PC1 : 20.20.20.3 255.255.255.0
+</p><p>
+</p><p>PC4&gt; ip 20.20.20.4/24
+</p><p>Checking for duplicate address...
+</p><p>PC1 : 20.20.20.4 255.255.255.0
+</p><p>
+</p><p>Setelah itu coba lakukan PING antar PC dalam satu VLAN yang sama.
+</p><p>PC1&gt; ping 10.10.10.3
+</p><p>
+</p><p>84 bytes from 10.10.10.3 icmp_seq=1 ttl=64 time=0.437 ms
+</p><p>84 bytes from 10.10.10.3 icmp_seq=2 ttl=64 time=0.386 ms
+</p><p>84 bytes from 10.10.10.3 icmp_seq=3 ttl=64 time=0.864 ms
+</p><p>84 bytes from 10.10.10.3 icmp_seq=4 ttl=64 time=0.525 ms
+</p><p>84 bytes from 10.10.10.3 icmp_seq=5 ttl=64 time=0.592 ms
+</p><p>
+</p><p>PC4&gt; ping 20.20.20.3
+</p><p>
+</p><p>84 bytes from 20.20.20.3 icmp_seq=1 ttl=64 time=0.560 ms
+</p><p>84 bytes from 20.20.20.3 icmp_seq=2 ttl=64 time=0.637 ms
+</p><p>84 bytes from 20.20.20.3 icmp_seq=3 ttl=64 time=0.936 ms
+</p><p>84 bytes from 20.20.20.3 icmp_seq=4 ttl=64 time=0.527 ms
+</p><p>84 bytes from 20.20.20.3 icmp_seq=5 ttl=64 time=0.597 ms
+</p><p>
+</p><p>Jika kita lakukan PING antar PC yang berbeda VLAN maka tidak dapat sampai paket PING (ICMP) nya.
+</p><p>PC1&gt; ping 20.20.20.3
+</p><p>
+</p><p>No gateway found
+</p><p>
+</p><p>Karena jika sudah berbeda VLAN, Switch tidak akan pernah mengirimkannya pada PC tujuan karena sudah berbeda VLAN dan juga Network/Broadcast Domain. Agar antar VLAN dapat berkomunikasi dibutuhkan sebuah Router yang akan melakukan Inter-VLAN Routing (Router on Stick)</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-mengevaluasi-vlan-pada-jaringan-cisco-packet-tracer">
+                            22. jelaskan mengevaluasi VLAN pada jaringan cisco packet tracer?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Virtual LAN atau disingkat VLAN merupakan sekelompok perangkat pada satu LAN atau lebih yang dikonfigurasikan (menggunakan perangkat lunak pengelolaan) sehingga dapat berkomunikasi seperti halnya bila perangkat tersebut terhubung ke jalur yang sama, padahal sebenarnya perangkat tersebut berada pada sejumlah segmen LAN yang berbeda.
+</strong></p><p><strong>
+</strong></p><p><strong>Virtual LAN (VLAN) memberikan suatu metoda yang sangat flexible untuk memanage segment-2 jaringan menggunakan Switch LAN. Jika menggunakan VLAN dalam jaringan-jaringan yang mempunyai Swithes yang saling terhubung, VLAN trunking antar switches diperlukan.
+</strong></p><p><strong>
+</strong></p><p><strong>VLAN memberikan suatu flexibilitas managemen dalam membuat Virtual LAN terpisah menjadi segment-segment atau subnet-subnet yang bisa dignakan untuk mendifinisikan lokasi terpisah atau jaringan-jaringan departemental. Penggunaan Virtual LAN dalam suatu jaringan LAN adalah bersifat opsional dan biasanya dipengaruhi oleh kebutuhan2 tertentu yang khusus seperti misalnya alasan keamanan dan pemisahan departemen.
+</strong></p><p><strong>
+</strong></p><p><strong>Konsep Virtual LAN
+</strong></p><p><strong>
+</strong></p><p><strong>Sebelum memahami Virtual LAN, suatu pengertian khusus mengenai definisi suatu LAN diperlukan. Sebuah LAN meliputi semua piranti jaringan yang berada pada satu broadcast domain. Suatu broadcast domain meliputi sekelompok piranti jaringan yang terhubung dalam suatu jaringan LAN yang bisa mengirim frame broadcast, dan semua piranti lainnya dalam satu segmen LAN yang sama akan menerima salinan frame broadcast tersebut. jadi bisa dikatakan bahwa suatu jaringan LAN dan suatu broadcast domain pada prinsipnya adalah hal yang sama.
+</strong></p><p><strong>
+</strong></p><p><strong>Tanpa VLAN, sebuah Switch akan memperlakukan semua interface pada Switch tersebut berada pada broadcast domain yang sama – dengan kata lain, semua piranti yang terhubung ke Switch berada dalam satu jaringan LAN. Dengan adanya VLAN, sebuah switch bisa mengelompokkan satu atau beberapa interface (baca port) berada pada suatu VLAN sementara interface lainnya berada pada VLAN lainnya. Jadi pada dasarnya, Switch membentuk beberapa broadcast domain. Masing-masing broadcast domain yang dibuat oleh Switch ini disebut virtual LAN.
+</strong></p><p><strong>
+</strong></p><p><strong>Dasar VLAN
+</strong></p><p><strong>
+</strong></p><p><strong>Satu atau beberapa switch dapat membentuk suatu virtual LAN yang disebut sebuah broadcast domain. Sebuah Virtual LAN dibuat dengan memasukkan beberapa interface (port) kedalam suatu VLAN dan beberapa port lainnya berada pada VLAN lain.
+</strong></p><p><strong>
+</strong></p><p><strong>Jadi, daripada semua port dari sebuah Switch membentuk satu broadcast domain tunggal, sebuah Switch bisa memecah menjadi beberapa VLAN tergantung kebutuhan dan konfigurasi. Untuk membantu memahami apa itu VLAN, dua gambar dibawah bisa digunakan untuk memahaminya.
+</strong></p><p><strong>
+</strong></p><p><strong>Pada gambar pertama ini dua buah Switch membentuk dua broadcast domain berbeda, masing-asing Switch membentuk satu broadcast domain. TIDAK ada VLAN dibuat disini.
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>dua buah Switch membentuk dua broadcast domain berbeda, tanpa VLAN
+</strong></p><p><strong>
+</strong></p><p><strong>Secara alternative, beberapa broadcast domain dapat dibuat dengan menggunakan sebuah Switch tunggal. Seperti gambar diatas, gambar dibawah ini menunjukkan dua buah broadcast domain yang sama akan tetapi diimplementasikan sebagai dua VLAN yang berbeda pada sebuah Switch tunggal.
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>Beberapa broadcast domain dapat dibuat dengan menggunakan sebuah Switch tunggal
+</strong></p><p><strong>
+</strong></p><p><strong>Untuk sebuah jaringan LAN kecil misal dirumahan atau dikantoran kecil, tidak ada alasan untuk membuat VLAN.
+</strong></p><p><strong>
+</strong></p><p><strong>Akan tetapi ada beberapa motivasi untuk membuat VLAN yang meliputi alasan berikut ini:
+</strong></p><p><strong>
+</strong></p><p><strong>Untuk mengelompokkan user berdasarkan departemen, atau mengelompokkan suatu group pekerja kolaborasi, ketimbang berdasarkan lokasi.
+</strong></p><p><strong>Untuk menurangi overhead dengan membatasi ukuran broadcast domain
+</strong></p><p><strong>Untuk menekankan keamanan yang lebih baik dengan menjaga piranti-piranti sensitive terpisah kedalam suatu VLAN
+</strong></p><p><strong>Untuk memisahkan traffic khusus dari traffic utama – misalkan memisahkan IP telephoni kedalam VLAN khusus terpisah dari traffic user.
+</strong></p><p><strong>Perancangan VLAN
+</strong></p><p><strong>
+</strong></p><p><strong>Berikut ini adalah contoh perancangan VLAN pada suatu departemen  dengan perincian sebagai berikut:
+</strong></p><p><strong>
+</strong></p><p><strong>1.      Bagian administrasi 6 pc
+</strong></p><p><strong>
+</strong></p><p><strong>2.      Bagian keuangan 5 pc
+</strong></p><p><strong>
+</strong></p><p><strong>3.      Bagian teknis 3 pc
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>Mula-mula berikan IP pada tiap-tiap client dengan network yang berbeda pada tiap bagian . Client-client tersebut sudah terhubung dengan switch. Untuk menset VLAN pada switch dapat melalui properties yang ada pada switch.
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>  </strong></p><p><strong>
+</strong></p><p><strong>Pada tab config pilih menu VLAN database, kemudian isi field VLAN Number dan VLAN Name lalu klik add. Setelah jumlah VLAN yang anda inginkan telah di add, close properties tersebut.
+</strong></p><p><strong>
+</strong></p><p><strong>Untuk VLAN pertama :
+</strong></p><p><strong>
+</strong></p><p><strong>IP Network 192.168.1.0/24
+</strong></p><p><strong>
+</strong></p><p><strong>VLAN kedua :
+</strong></p><p><strong>
+</strong></p><p><strong>IP network 192.168.2.0/24
+</strong></p><p><strong>
+</strong></p><p><strong>VLAN ketiga :
+</strong></p><p><strong>
+</strong></p><p><strong>IP network 192.168.3.0/24
+</strong></p><p><strong>
+</strong></p><p><strong>Kemudian masing-masing port yang terhubung dengan pc didefinisikan pada VLAN mana.
+</strong></p><p><strong></strong></p><p></p><p><strong>Penjelasan:</strong></p><p><strong>Semoga membantu</strong></p><p><strong>Jadikan jawaban terbaik ya</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-perhatikan-perintah-konfigurasi-berikutswitchenableswitchconfigure-terminalswitchvlan-databaseswitchvlanvlan-10-name-lab_guruswitchvlanvlan-20-name-lab_siswaswitchvlanexithasil-konf">
+                            23. 1. Perhatikan perintah konfigurasi berikut:switch&gt;enableswitch#configure terminalswitch#vlan databaseswitch(vlan)#vlan 10 name Lab_Guruswitch(vlan)#vlan 20 name Lab_Siswaswitch(vlan)#exitHasil konfigurasi yang diperoleh adalah…..A. Mengaktifkan mode trunk pada lab_guru dan lab_siswaB. Pengelompokan port berdasarkan departemen lab_Guru dan lab_siswa C. Mengaktifkan client mode pada lab_Guru dan lab_siswaD. Membuat kelompok VLAN baru dengan nama lab_Guru dan lab_siswaE. Memberikan hak akses pada lab_Guru dan lab_siswa2. Perintah konfigurasi tiap port fastethernet pada vlan 30 agar dapat terhubung ke VLAN lainnya adalah..... A. switchport access vlan 30B. vlan 30 switchport accessC. switchport 30 vlan accessD. switchport vlan 30 accessE. switchport access 30tolong bantu jawabTerimakasih​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Hasil konfigurasi yang diperoleh adalah: D. Membuat kelompok VLAN baru dengan nama Lab_Guru dan Lab_Siswa. Pada konfigurasi tersebut, VLAN 10 diberi nama Lab_Guru dan VLAN 20 diberi nama Lab_Siswa. Hal ini menunjukkan pembuatan kelompok VLAN baru dengan nama yang sesuai.</p><p></p><p>2. Perintah konfigurasi tiap port FastEthernet pada VLAN 30 agar dapat terhubung ke VLAN lainnya adalah: A. switchport access vlan 30. Dengan menggunakan perintah ini, port FastEthernet akan dikonfigurasi sebagai port akses ke VLAN 30, yang memungkinkan koneksi dengan VLAN lainnya.</p><br />
+                                            <h2 class="ez-toc-section" id="vlan-id-yang-tidak-bisa-di-hapus-adalah%e2%80%8b">
+                            24. VLAN ID yang tidak bisa di hapus adalah​</h2><br />
+                        <p>Jawaban:VLAN Default</p><p></p><p>Penjelasan:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="switch-config-no-vlan-7-digunakan-untuk-vlan-7">
+                            25. switch (config) #no vlan "7" 
+digunakan untuk.......VLAN 7</h2><br />
+                        <p>Switch (config) #no vlan "7" perintah tersebut digunakan untuk mensetting<strong> switch </strong>tidak menggunakan vlan. <strong>VLAN</strong> merupakan sebuah protokol LAN.</p><p><strong>Pembahasan</strong></p><p><strong>VLAN</strong> adalah singkatan dari Virtual Local Area Network, dan propertinya melewati batasan fisik LAN, mengaktifkan penskalaan dan segmentasi jaringan, meningkatkan langkah-langkah keamanan, dan mengurangi latensi jaringan. <strong>VLAN</strong> adalah jaringan yang memungkinkan komputer dan pengguna dalam lingkungan geografis untuk berkomunikasi seolah-olah mereka berada di LAN, berbagi domain broadcast dan multicast tunggal. VLAN dapat digunakan untuk meningkatkan kinerja jaringan, meningkatkan berbagi jaringan dalam kondisi tertentu, menyederhanakan manajemen, meminimalkan biaya, dan menerapkan metode keamanan.</p><p></p>Pelajari lebih lanjut<p>Pelajari lebih lanjut materi tentang VLAN: https://brainly.co.id/tugas/16613835</p><p></p><p><strong>#BelajarBersamaBrainly #SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="apa-arti-dari-perintah-name-vlan-name-pada-pembuatan-vlan-di-cisco">
+                            26. Apa arti dari perintah "name vLan name" pada pembuatan vlan di cisco</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Name-Vlan-Name merupakan perintah untuk membuat VLAN menggunakan mode konfigurasi global.</p><p></p><p></p><p></p><p>Maap klo slh</p><br />
+                                            <h2 class="ez-toc-section" id="menghubungkan-vlan-yang-sama-dalam-switch-berbeda-disebut">
+                            27. Menghubungkan vlan yang sama dalam switch berbeda disebut.....</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Kalo kaga salah  TRUNKING VLAN. </p><br />
+                                            <h2 class="ez-toc-section" id="10-fungsi-allowed-vlan-adalah-a-menghubungkan-vlan-di-2-switch-berbeda-b-menghubungkan-vlan-di-dalam-1-switch-c-membatasi-hak-akses-vlan-di-2-switch-yang-sudah-di-trunking-d-memberikan-kenya">
+                            28. 10. Fungsi allowed VLAN adalah .... a. menghubungkan VLAN di 2 switch berbeda b. menghubungkan VLAN di dalam 1 switch c. membatasi hak akses VLAN di 2 switch yang sudah di-trunking d. memberikan kenyamanan bagi user e. mengunci fitur switching​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>c. membatasi hak akses VLAN di 2 switch yang sudah di-trunking.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-seting-vlan-menggunakan-cisco-package-tracer">
+                            29. Jelaskan cara seting vlan menggunakan cisco package tracer</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>di google kak, ada banyak</p><p></p><p>#backtoschool2019 </p><p>#tolonglike </p><p>#jawabanterbaik </p><p><strong>Jawaban:</strong></p><p>ini jawaban ya maaf ya klo ada salah</p><p><strong>Penjelasan:</strong></p><p>Kita akan menggunakan aplikasi packet tracer,pastikan kalian sudah menginstallnya.Kita akan menggunakan sebuah Switch dan 4 buah pc client (lihat topologi star dibawah).</p><p></p><p>Untitled</p><p></p><p>Pada Topologi jaringan tersebut  saya menggunakan ip untuk network yaitu 192.168.20.0/24,Kalian bebas jika ingin menggatinya misal dengan 10.xx.xx.0 , 172.168.xx.0 dan mask/prefix  bebas pula bisa /24 /28 dan seterusnya.Saya akan memberi nama tkj1 pada interface Vlan 9 dan nama tkj2 pada interface vlan10.</p><p></p><p>Jika sudah paham mari kita praktekan,silahkan lakukan konfigurasi ip addess pada tiap pc client,</p><p></p><p>Klik 2x pada pc 1 &gt; ip configuration &gt; isikn ip addess 192.168.20.1 netmask 255.255.55.0</p><p></p><p>1</p><p></p><p>Lakukan langkah tersebut ke setiap pc client dengan ip address sesuai topologi yang saya atau kalian  buat .</p><p></p><p>Jika proses konfigurasi ip address tiap client sudah selesai  mari kita lanjutkan dengan setting vlan pada switch.</p><p></p><p>Klik 2x switch &gt; pilih CLI</p><p>Switch&gt;en #enable</p><p>Switch#show vlan #untuk melihat hasil konfigurasi vlan</p><p>Switch#conf t #untuk memuli konfiggurasi</p><p>Switch(config)#vlan ? #untuk melihat berapa alokasi vlan</p><p>Switch(config)#vlan 9</p><p>Switch(config-vlan)#name tkj1</p><p>Switch(config-vlan)#ex #exit</p><p>Switch(config)#vlan 10</p><p>Switch(config-vlan)#name tkj2</p><p>Switch(config-vlan)#ex</p><p>Switch#show vlan</p><p>Selanjutnya adalah memisahkan segmen vlan 9 dan vlan 10 agar tidak bisa saling terhubung,supaya jaringan hanya bisa terhubung dalan satu vlan saja dan tidak bisa ke vln lain agar tidak mengganggu.</p><p></p><p>Switch#conf t</p><p>Switch (config)#interface fa0/1 #untuk config fa0/1 (pc 1) agar masuk ke vlan 9</p><p>Switch (config-if)#switchport mode access</p><p>Switch (config-if)#switchport access vlan 9</p><p>Switch (config-if)#ex</p><p>Switch (config)#interface fa0/2 #untuk menambahkan ke vlan 9</p><p>Switch (config-if)#switchport mode access</p><p>Switch (config-if)#switchport access vlan 9</p><p>Switch (config-if)#ex</p><p>Switch#show vlan #untuk melihat hasilnya</p><p>Lakukan perintah tersebut pada sisi lainnya,</p><p></p><p>Switch (config)#interface fa0/3 #untuk config fa0/3 (pc 3) agar masuk ke vlan 10</p><p>Switch (config-if)#switchport mode access</p><p>Switch (config-if)#switchport access vlan 10</p><p>Switch (config-if)#ex</p><p>Switch (config)#interface fa0/4 #untuk menambahkan ke vlan 10</p><p>Switch (config-if)#switchport mode access</p><p>Switch (config-if)#switchport access vlan 10</p><p>Switch (config-if)#ex</p><p>Switch#show vlan #untuk melihat hasilnya</p><p>Jika sudah silahkan cek dengan melakukan pings antar pc lokal se vlan apa hasilnya?</p><p></p><p>Jika sudah silahkan cek dengan melakukan pings antar pc beda vlan apa hasilnya?</p><p></p><p>Jika kalian ping antara pc se vlan pasti success namun jika beda vlan kan failed</p><br />
+                                            <h2 class="ez-toc-section" id="kesimpulan-dari-praktikum-tentang-vlan-menggunakan-cisco-paket-treacer">
+                            30. kesimpulan dari praktikum tentang VLAN menggunakan cisco paket treacer</h2><br />
+                        1. Komunikasi antar host dalam 1 switch dpt berjalan dgn baik sebelum VLAN diaktifkan. namun setelah diaktifkan, komunikasi hanya dpt dilakukan dgn host yg sama.<br /><br />2. VLAN diaktifkan untuk membatasi konektivitas komputer ke komputer lain dlm 1 switch yg sama.<br /><br /><br />cmiiw :)<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/OyksXW-u63c?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/cara-menonton.html">Cara Menonton</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/susu-prenagen.html">Susu Prenagen</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/rumus-menghitung-ph-larutan.html">Rumus Menghitung Ph Larutan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/kepanjangan-trd.html">Kepanjangan Trd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/sketsa-gambar-balon.html">Sketsa Gambar Balon</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/chrisye-pergilah-kasih-chord.html">Chrisye Pergilah Kasih Chord</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/juz-30-an-naba.html">Juz 30 An Naba</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/contoh-puisi-naratif-balada.html">Contoh Puisi Naratif Balada</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/chord-gitar-bukan-salah-jodoh.html">Chord Gitar Bukan Salah Jodoh</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/pangeran-antasari-bentuk-bentuk-perlawanan.html">Pangeran Antasari Bentuk Bentuk Perlawanan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/jadwal-penerbangan-jakarta-samarinda-hari-ini.html">Jadwal Penerbangan Jakarta Samarinda Hari Ini</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/bahasa-inggris-kecap-manis.html">Bahasa Inggris Kecap Manis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/berikut-bukan-pasangan-isomer-adalah.html">Berikut Bukan Pasangan Isomer Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/tv-polytron-32.html">Tv Polytron 32</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/menguap-perubahan-wujud-dari.html">Menguap Perubahan Wujud Dari</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/pernyataan-berikut-yang-bukan-tentang-teori-atom-dalton-adalah.html">Pernyataan Berikut Yang Bukan Tentang Teori Atom Dalton Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/download-buku-tik-kelas-8-kurikulum-2013-pdf.html">Download Buku Tik Kelas 8 Kurikulum 2013 Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/rinso-molto-cair.html">Rinso Molto Cair</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/gambar-batik-kalimantan-barat.html">Gambar Batik Kalimantan Barat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://mythinkbrain.github.io/agen-bus-sinar-jaya-poris-plawad.html">Agen Bus Sinar Jaya Poris Plawad</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://mythinkbrain.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://mythinkbrain.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://mythinkbrain.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://mythinkbrain.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://mythinkbrain.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
